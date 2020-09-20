@@ -2,7 +2,7 @@
     <h1>
        Weezom test app
     </h1>
-    <a href=" https://malichenko.github.io/CRUD/">Weezom test app ссылка</a>
+    <a href="https://malichenko.github.io/CRUD/">Weezom test app ссылка</a>
 </div>
 
 <br>
