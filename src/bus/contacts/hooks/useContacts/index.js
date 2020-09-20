@@ -20,7 +20,6 @@ export const useContacts = () => {
   const { contacts, isLoading, viewMode, filterData, pageState } = useSelector(
     (state) => state.contacts,
   );
-  // TODO: изменить название переменной
   const [pagination, setPagination] = useState({
     page: 1,
     size: 9,

@@ -40,13 +40,6 @@ export const View = ({ tableData }) => {
           {name.title}
         </Link>
       ),
-      onHeaderCell: (column) => {
-        return {
-          onClick: () => {
-            console.log(column);
-          }
-        };
-      }
     },
     {
       title: "Birthday",
