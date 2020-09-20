@@ -1,0 +1,13 @@
+.contacts {
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .ant-typography {
+      margin-bottom: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.header {
+	$this: &;
+
+	position: relative;
+	display: block;
+	min-height: 60px;
+	margin: 0;
+	padding: 0;
+
+	& > .ant-row {
+		height: 60px !important;
+	}
+}

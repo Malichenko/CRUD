@@ -1,0 +1,1 @@
+export const root = "https://randomuser.me/api/1.3";

@@ -1,0 +1,19 @@
+.profile {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+
+  &__header {
+    margin-bottom: 20px;
+  }
+
+  &__header > h2 {
+    margin: 0;
+  }
+
+  .ant-divider {
+    margin: 12px 0;
+  }
+}

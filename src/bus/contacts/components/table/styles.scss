@@ -1,0 +1,22 @@
+.table {
+  .ant-table-container {
+    padding: 20px !important;
+  }
+
+  .ant-table-cell {
+    padding: 0 5px;
+  }
+
+  &__email {
+    height: 22px;
+
+    .copyblock {
+      a {
+        overflow: hidden;
+        overflow-wrap: break-word;
+        max-width: 100px;
+        height: 22px;
+      }
+    }
+  }
+}

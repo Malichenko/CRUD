@@ -1,0 +1,43 @@
+// Colors
+@import "../../../../assets/styles/variables";
+
+.error {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  &__code {
+    margin: 0 0 30px;
+    color: $color-danger;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  &__message {
+    margin: 0;
+    color: #333;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.333;
+  }
+
+  &__back-btn {
+    margin: 30px 0 0;
+    padding: 0;
+  }
+
+  &__code,
+  &__message {
+    display: block;
+    padding: 0;
+    letter-spacing: 0.5px;
+  }
+}
